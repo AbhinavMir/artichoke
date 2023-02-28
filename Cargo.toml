@@ -1,0 +1,9 @@
+[package]
+name = "artichoke"
+version = "0.1.0"
+authors = ["Your Name <your-email@example.com>"]
+edition = "2018"
+
+[dependencies]
+arti = "0.2"
+tokio = { version = "1", features = ["full"] }
